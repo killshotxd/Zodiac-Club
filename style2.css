@@ -1,0 +1,105 @@
+body{
+    background-image: url(./david-van-dijk-3LTht2nxd34-unsplash.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container{
+    border: 3px solid white;
+    color: white;
+    margin: 90px 47px;
+    padding: 23px 33px;
+    width: 36%;
+    border-radius: 35px;
+}
+
+.h1:hover{
+    animation: move 3s ease-in-out infinite;
+}
+
+
+.form-group input{
+        text-align: center;
+        width: 425px;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 14px;
+        border-radius: 8px;
+        background-color: transparent;
+        font-family: 'Balsamiq Sans', cursive;
+        
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: transparent;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button{
+    display: block;
+    margin: 0;
+    width: 98%;
+}
+
+.text_area{
+    background-color: transparent;
+    width: 439px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+/*IMPOSSIBLE ANIME*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+  }
+  .container2 h1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 32px;
+    cursor: pointer
+  }
+  .container2 h1 span{
+    transition: .5s linear
+  }
+  .container2 h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  .container2 h1:hover span:nth-child(1):after{
+    content: "'";
+  }
+  .container2 h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  .container2 h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+ 
